@@ -62,32 +62,35 @@ The goal of this project is to demonstrate backend development skills including 
 ---
 
 ## 📁 Project Structure
+
+```
 project-root/
 │
 ├── config/
-│ └── db.js
+│   └── db.js
 │
 ├── models/
-│ ├── User.js
-│ └── Record.js
+│   ├── User.js
+│   └── Record.js
 │
 ├── routes/
-│ ├── userroute.js
-│ ├── recordroute.js
-│ └── dashboardroute.js
+│   ├── userRoutes.js
+│   ├── recordRoutes.js
+│   └── dashboardRoutes.js
 │
 ├── middleware/
-│ ├── authMiddleware.js
-│ └── roleMiddleware.js
+│   ├── authMiddleware.js
+│   └── roleMiddleware.js
 │
 ├── controllers/
-│ ├── userController.js
-│ ├── recordController.js
-│ └── dashboardController.js
+│   ├── userController.js
+│   ├── recordController.js
+│   └── dashboardController.js
 │
 ├── server.js
 ├── .env
 └── package.json
+```
 
 
 
