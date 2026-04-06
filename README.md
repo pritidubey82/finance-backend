@@ -100,4 +100,30 @@ project-root/
 git clone https://github.com/pritidubey82/finance-dashboard-backend.git
 cd finance-dashboard-backend
 
+3. Setup Environment Variables
+
+Create a .env file:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+4. Run Server
+npm run dev
+
+Server runs at:
+
+http://localhost:5000
+🔗 API Endpoints
+User Routes
+POST   /api/users/register
+POST   /api/users/login
+GET    /api/users/
+PUT    /api/users/:id
+DELETE /api/users/:id
+Financial Records
+POST   /api/records/
+GET    /api/records/
+PUT    /api/records/:id
+DELETE /api/records/:id
+
 
