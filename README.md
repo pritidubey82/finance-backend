@@ -122,16 +122,28 @@ http://localhost:5000
 
 ### 🔗 API Endpoints
 
-User Routes
-POST   /api/users/register
-POST   /api/users/login
-GET    /api/users/
-PUT    /api/users/:id
-DELETE /api/users/:id
-Financial Records
-POST   /api/records/
-GET    /api/records/
-PUT    /api/records/:id
-DELETE /api/records/:id
+## User Routes
+Create Record
+
+```
+POST http://localhost:5000/api/records
+```
+Get records
+
+```
+GET http://localhost:5000/api/records
+```
+
+Update Record
+```
+PUT http://localhost:5000/api/records/<ID>
+```
+Delete Record 
+
+```
+DELETE http://localhost:5000/api/records/<ID>
+```
+
+
 
 
